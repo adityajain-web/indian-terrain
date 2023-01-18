@@ -1,0 +1,31 @@
+.swiperSlide {
+  height: 64vh !important;
+  width: 100% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1101px) {
+  .swiperSlide {
+    height: 48vh !important;
+  }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1212px) {
+  .swiperSlide {
+    height: 53vh !important;
+  }
+}
+
+@media only screen and (min-width: 1212px) and (max-width: 1281px) {
+  .swiperSlide {
+    height: 55vh !important;
+  }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1321px) {
+  .swiperSlide {
+    height: 60vh !important;
+  }
+}
